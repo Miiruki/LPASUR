@@ -1,0 +1,38 @@
+cd /etc/
+ls
+ls -l
+ls -al
+ls
+ls -r
+ls -s --block-size=M
+ls -sh
+ls -t
+ls -rt
+ls -Sr
+ls -S
+ls -d *conf*
+ls -d c*
+ls -d rc[1-9]*
+ls *.conf
+cd ~
+touch toto
+chmod 600 toto
+chmod 640 toto
+chmod 555 toto
+La commande chmod 660 texte1 va donner les droits en lecture et écriture pour le propriétaire du fichier et pour le groupe propriétaire
+La commande chmod a+x texte1 va donner les droits d'exécution a tout le monde sur le fichier
+La commande chmod g+w va donner les droits de lecture sur le fichier au groupe propriétaire
+La commande chmod go-r texte1 va enlever les droits de lecture sur le fichier au groupe propriétaire et aux autres utilisateurs
+La commande chmod ug+x texte1 va donner les droits d'exécution à l'utilisateur propriétaire et au groupe propriétaire
+Les droits nécessaire sur le répertoire afin que tous les membres de notre groupe puisse accéder au fichier seront : chmod g+w répertoire
+ps
+ps u
+ps au
+ps aux
+La ligne de commande est en pause
+En utilisant la commande kill sans options, rien ne se passe et le terminal reste figé
+Avec la commande Sigkill, le processus se termine et le terminal revient dans son état normal
+xeyes& permet de détacher de son processus parent
+Lorsque nous tuons le processus xeyes, le processus se termine
+Ils sont classés par ordre de PID
+Il faut taper k et rentrer le numéro de PID puis taper entré
