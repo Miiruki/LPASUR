@@ -1,5 +1,5 @@
-# <center> AGUILAR_Flavien_FLX </center>
-# <center>SHL - Flux</center>
+# AGUILAR_Flavien_FLX
+# SHL - Flux
 
 ## i1-tp-flux : Flux 
 ### 1 - Redirection de flux en sortie : 

@@ -1,4 +1,6 @@
-# <center> SH-File-System</center>
+# AGUILAR_Flavien
+
+# SH-File-System
 
 # i1-tp-file_system : Manipulation du système de fichiers sous Linux
 
@@ -7,6 +9,7 @@
 </br>
 
 1- Pour afficher la valeur du répertoire utilisateur, nous allons afficher la variable d'environement $HOME : 
+
 ```shell=
 test@debian:~$ echo $HOME
 /home/test
@@ -155,27 +158,6 @@ root@debian:/home/test# mkdir /home/rt1/xyz/programmes/php
 root@debian:/home/test# mkdir /home/rt1/xyz/programmes/java
 root@debian:/home/test# touch /home/rt1/xyz/programmes/java/TP.java
 ```
-
-Nous pouvons vérifier notre arborescence avec la commande : 
-
-```
-root@debian:/home# tree
-.
-├── rt1
-│   └── xyz
-│       ├── programmes
-│       │   ├── java
-│       │   │   └── TP.java
-│       │   ├── langage_c
-│       │   │   └── a.c
-│       │   └── php
-│       └── public_html
-│           ├── docs
-│           ├── images
-│           └── index.html
-└── test
-```
-
 6 - Nous allons rentrer du texte dans le fichier index.html avec la commande suivante : 
 
 ```shell=
